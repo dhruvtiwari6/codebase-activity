@@ -9,11 +9,24 @@
 <body>
   <div class="container">
     <input type="text" id="correct-password" placeholder="Enter the correct password"> 
-
     <button id="chocolateButton">Get a Chocolate!</button>
     <div id="chocolateContainer"></div>
   </div>
 
-  <script src="script.js"></script>
+  <script>
+    // Select button and correct password input field
+    const button = document.getElementById("chocolateButton");
+    const correctPassword = document.getElementById("correct-password");
+
+    // Add click event listener
+    button.addEventListener("click", () => {
+      // Check if the entered password matches the correct one
+      if (correctPassword.value === "lead_dhruv_yash__codebase_ayush") {
+        alert("Wow! You got chocolate 🎉🍫");
+      } else {
+        alert("Wrong password, try again!");
+      }
+    });
+  </script>
 </body>
 </html>
