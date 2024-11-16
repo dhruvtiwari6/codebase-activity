@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    text-align: center; /* Align text inside the container */
+    background: #fff; /* Optional: Add background to the container */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow */
+    margin-top : 10%;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #7b3f00;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #5e2e00;
+  }
+  
+  #chocolateContainer {
+    margin-top: 20px;
+  }
+  
+  .chocolate {
+    width: 100px;
+    height: auto;
+    margin: 5px;
+  }
+
+
+  input {
+    height : 40px;
+  }
+  
